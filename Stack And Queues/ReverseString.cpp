@@ -7,7 +7,7 @@ Input : "abc"
 Return "cba"
 */
 
-#include <bits/stcd++.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
