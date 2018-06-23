@@ -58,7 +58,7 @@ string simplifyPath(string A) {
 
 int main()
 {
-    string A = "/../";
+    string A = "/a/./b/../../c/";
 
     cout << simplifyPath(A) << endl;
     return 0;
