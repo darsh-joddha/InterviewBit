@@ -64,7 +64,7 @@ int evalRPN(vector<string> &A) {
 
 int main()
 {
-    string a[] = {"1"};
+    string a[] = {"4", "13", "5", "/", "+"};
     int n = sizeof(a)/sizeof(a[0]);
 
     vector<string> A;
