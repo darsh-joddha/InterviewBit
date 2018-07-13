@@ -46,8 +46,6 @@ void PathSum(TreeNode* A, vector<vector<int> >& ans, vector<int> temp, int sum)
     if(A->right != NULL)
         PathSum(A->right, ans, temp, sum - A->val);
         
-    if(A == NULL)
-        temp.clear();
 }
  
  
